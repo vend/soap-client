@@ -1,5 +1,13 @@
 # Versions
 
+## v1.0.0-rc1
+
+### Updates
+
+ * Removed support for EOL'd PHP versions (5.3, 5.4, 5.5)
+ * Added testing under PHP 7.0
+ * Fix for phpforce/soap-client#28
+
 ## v0.0.0
 
 ### Comments

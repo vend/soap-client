@@ -63,7 +63,7 @@ class SoapClientFactory
             'features'   => \SOAP_SINGLE_ELEMENT_ARRAYS,
             'classmap'   => $this->classmap,
             'typemap'    => $this->getTypeConverters()->getTypemap(),
-            'cache_wsdl' => \WSDL_CACHE_MEMORY
+            'cache_wsdl' => \WSDL_CACHE_DISK
         );
 
         $options = array_merge($defaults, $soapOptions);
